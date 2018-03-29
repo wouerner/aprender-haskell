@@ -1,0 +1,3 @@
+module Projeto where
+    data Cargo = Estagiario | Programador | Coordenador | Gerente deriving Show
+    data Pessoa = Pessoa {cargo :: Cargo, nome :: String } deriving Show
