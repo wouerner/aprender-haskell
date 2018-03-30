@@ -9,4 +9,6 @@ module Perguntas where
     listPergs xs = [ pergNum x | x <- xs  ]
 
     and' :: (Pergunta, Pergunta) -> Bool
-    and' (Sim, Nao ) = False  
+    and' (Sim, Nao ) = False
+    and' (Sim, Sim ) = True 
+
